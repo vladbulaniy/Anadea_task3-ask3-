@@ -1,0 +1,415 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="windows-1251">
+<title>Part 3 with Part 6*</title>
+
+<link rel="stylesheet" href="libs/bootstrap-3.3.5-dist/css/bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="libs/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript" src="js/promt.js"></script>
+<link rel="stylesheet" type="text/css" href="css/promt.css" />
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+
+<div id="head" >
+  <div id="inHead" >
+    <div class="leftPart">Kohl Corp. Vocation planning</div>
+    <div class="rightPart">
+      <span id="nameBlock">Hi,<span id="name">Mathew</span></span>
+      <span id="info">My info</span>
+      <span id="help">Help</span>
+      <span id=""><img src="img/icons/divide.png" width="1" height="16" /></span>
+      <span id="logout"><img src="img/icons/logout.png" width="12" height="16" style="margin-top: -3px;" data-promt='Click to show more infomation Logout'/> Logout</span>
+    </div>
+  </div>
+</div>
+
+<div id="globalBlock" >
+  <div id="menu">
+    <div class="top-menu leftPart">
+      <ul>
+        <li><div class="block"></div><a href="#" class="active">Overview</a> <div id="numero">3</div> </li>
+        <li><div class="block"></div><a href="#">Time Offs</a></li>
+        <li ><div class="block"></div><a href="#">Purchases</a></li>
+        <li ><div class="block"></div><a href="#">Employees</a></li>
+      </ul>
+    </div> <!--menu -->
+     <div style="margin-top: 5px;" id="settings" class="rightPart">
+  <img src="img/icons/settings.png" width="20" height="20"  style="margin-top: -5px;"/>
+  <span >Company settings</span>
+  </div> <!--settings -->
+  </div>
+ <br />
+ 
+ 
+
+  <div id="globalContent">
+
+    <div class="contentHead"><span>Overview</span></div>
+    
+    <div id="content" class="container">
+
+    <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/ChriFre.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible" >Christina Frerichs</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2">
+          <div class="avatar toggleVisible" id="test" >
+            <img src="img/avatars/ChriFre.png" data-promt='Click to show more infomation 2'/>
+          </div>
+        </div>
+        
+        <div class="col-xs-10">          
+          <div class="info"><span class="name toggleVisible" data-promt='Click to show more infomation'>Christina Frerichs</span> <span class="greyColor">asks for time off.</span> <span class="date"> <img src="img/icons/date.png" width="20" height="20" /> May 15-20</span> 5 days. Sickness <span class="Pending"></span></div>
+          <div class="questionBlock"><span class="qustion">I need some rest </span> - <span class="qustionMaster">Shona L. Brown</span> <span class="questionTime"> <span class="timeValue">1 hour</span> ago</span><span class="answer" data-promt='Click to show more infomation Answer'><img src="img/icons/Answer.png" width="15" height="13" /> Answer</span></div>           
+        </div>
+      </div> <!-- row -->
+      
+        <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/PetCruz.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible" >Peter Cruz</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2" style="outline: 1ps solid green;">
+          <div class="avatar toggleVisible" >
+            <img src="img/avatars/PetCruz.png"  />
+          </div>
+        </div>
+        
+        <div class="col-xs-10">
+          <div class="info"><span class="name toggleVisible">Peter Cruz</span> <span class="greyColor">asks for time off.</span> <span class="date"> <img src="img/icons/date.png" width="20" height="20" /> May 15-20</span> 5 days. Sickness <span class="Pending"></span></div>
+          <div class="questionBlock"><span class="qustion">I need some rest </span> - <span class="qustionMaster">Shona L. Brown</span> <span class="questionTime"> <span class="timeValue">1 hour</span> ago</span><span class="answer"><img src="img/icons/Answer.png" width="15" height="13" /> Answer</span></div>           
+        </div>        
+      </div> <!-- row -->
+      
+      <div class="row">
+        <div class="contentHead"> Active stories</div>
+      </div>
+   </div>   
+      
+      
+      <!-- contantActiveStory  --------------------------- -->
+      
+       <div id="contentActiveStory" class="container">
+
+       <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/ChriFre.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible" >Christina Frerichs</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2">
+          <div class="avatar toggleVisible" >
+            <img src="img/avatars/ChriFre.png" />
+          </div>
+        </div>
+        
+        <div class="col-xs-10">          
+          <div class="info"><span class="name toggleVisible">Christina Frerichs</span> <span class="greyColor">asks for new purchase.</span> <span class="device"></span> Notebook, &pound;<span class="cost">1,0000</span> <span class="Bought"></span></div>
+          <div class="questionBlock"><span class="qustion">Done </span> - <span class="qustionMaster">Shona L. Brown</span> <span class="questionTime"> <span class="timeValue">1 hour</span> ago</span><span style="float: right;"><span class="comentsQuantity">3</span> coments</span>
+            <div class="addBlock"></div>
+          </div>           
+        </div>
+      </div> <!-- row -->
+      
+      <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/HarHen.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible">Harold Henriquez</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2">
+          <div class="avatar toggleVisible" >
+            <img src="img/avatars/HarHen.png" />
+          </div>
+        </div>
+        
+        <div class="col-xs-10">          
+          <div class="info"><span class="name toggleVisible">Harold Henriquez</span> <span class="greyColor">asks for new purchase.</span> <span class="device"></span> Notebook, &pound;<span class="cost">1,0000</span> <span class="Bought"></span></div>
+          <div class="questionBlock">
+            <span class="qustion">I want a new laptop </span> - <span class="qustionMaster">Harold Henriquez</span> <span class="questionTime"> <span class="timeValue"></span> </span> <span class="buttonHide"><span class="comentsQuantity"></span>Hide</span>
+            <div class="otherQuestion">
+              <span class="qustion">No problem </span> - <span class="qustionMaster">D.Bruce Sewell</span> <span class="questionTime"> <span class="timeValue"></span> </span> 
+              <br />
+              <span class="qustion">Done </span> - <span class="qustionMaster">Shona L. Brown</span> <span class="questionTime"> <span class="timeValue">35 min</span> ago</span> 
+            </div>
+            <div class="addBlock"></div>
+          </div>           
+        </div>
+      </div> <!-- row -->
+      
+      
+      <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/HarHen.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible">Harold Henriquez</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2">
+          <div class="avatar toggleVisible" >
+            <img src="img/avatars/HarHen.png" />
+          </div>
+        </div>
+        
+        <div class="col-xs-10">          
+          <div class="info"><span class="name toggleVisible">Harold Henriquez</span> <span class="greyColor">asks for new purchase.</span> <span class="device"></span> Notebook Asus EEE PC, &pound;<span class="cost">1,0000</span> <span class="Approved"></span></div>
+          <div class="questionBlock">
+            <span class="qustion">I want a new laptop </span> - <span class="qustionMaster">Harold Henriquez</span> <span class="questionTime"> <span class="timeValue"></span> </span> <span class="buttonHide"><span class="comentsQuantity"></span>Hide</span>
+            <div class="otherQuestion">
+              <span class="qustion">No problem </span> - <span class="qustionMaster">D.Bruce Sewell</span> <span class="questionTime"> 1 hour<span class="timeValue"></span> ago <img src="img/icons/pen.png" width="12" height="12" /></span> 
+             </div>
+            <div class="addBlock"></div>
+          </div>           
+        </div>
+      </div> <!-- row -->  
+      
+      
+      
+      <div class="row" style="border-bottom: 1px solid #E0E0E0;">
+        
+        <div class="hidden2">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="hiddenAvatar toggleNotVisible"><img src="img/avatars/DenLon.png" /></div>
+            </div>
+            <div class="col-xs-7">
+              <div class="hiddenPersonInfo">
+                <span class="name toggleNotVisible">Daniele Longo</span> <br />
+                <span class="profesion">manager</span>
+              </div>
+               
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="personInfo">
+                <div><span class="leftInfo">10</span> days left</div>
+                <div><span class="pendingInfo">13</span> days pending</div>
+                <div><span class="rejectInfo">3</span> days rejected</div>
+              </div>              
+            </div>
+            <div class="col-xs-6">
+              <div class="rejectedDay">
+                <span class="rejected">3</span>/<span class="rejectedLimit">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="otherInfo">
+              <div>last activity <span class="lastActivity">20</span> days ago</div><br />
+              <div>users <span class="timeOffOn">time off</span></div><br />
+              <div>todo lis</div>
+            </div>
+          </div>          
+          
+          
+        </div> <!--hidden -->
+        <div class="col-xs-2">
+          <div class="avatar toggleVisible" >
+            <img src="img/avatars/DenLon.png" />
+          </div>
+        </div>
+        
+        <div class="col-xs-10">          
+          <div class="info"><span class="name toggleVisible">Daniele Longo</span> <span class="greyColor">asks for new purchase.</span> <span class="device"></span> Notebook, &pound;<span class="cost">1,0000</span> <span class="Approved"></span></div>
+          <div class="questionBlock">
+            <span class="qustion">I want a new laptop </span> - <span class="qustionMaster">Harold Henriquez</span> <span class="questionTime"> <span class="timeValue"></span> </span> <span class="buttonHide"><span class="comentsQuantity"></span>Hide</span>
+            <div class="otherQuestion">
+              <span class="qustion">No problem </span> - <span class="qustionMaster">D.Bruce Sewell</span> <span class="questionTime"> 1 min<span class="timeValue"></span> ago <img src="img/icons/pen.png" width="12" height="12" /></span> 
+             </div>
+            <div class="addBlock"></div>
+          </div>           
+        </div>
+      </div> <!-- row -->  
+      
+   </div> 
+   
+   
+   <!-- end Active Story -------- -->
+   
+ <!--     <div id="floatingmes">
+        <div id="hint">Подсказка</div>
+      </div>
+    
+    
+
+ <div id="block"></div>  -->        
+    
+  </div>
+</div>
+
+
+</body>
+</html>

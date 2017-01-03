@@ -1,0 +1,61 @@
+#floatingmes div{    
+    max-width: 300px;
+}
+
+#floatingmes {
+    position:absolute; 
+    z-index:995; 
+    top:100px; 
+    left:100px; 
+    background:#FFF; 
+    opacity:0.85; 
+    border:1px solid #000;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+/* left*/
+#floatingmes .left::before, #floatingmes .left::after { 
+    content: ''; 
+    position: absolute;
+    left: -30px; 
+    top: 3px;
+    border: 15px solid transparent;
+    border-right: 15px solid black;
+    z-index: 999;        
+   }
+
+/*under*/
+#floatingmes .under::before, #floatingmes .under::after { 
+    content: ''; 
+    position: absolute;
+    left: 20px; 
+    top: -30px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid black;
+    z-index: 999;        
+   }
+ 
+ /*over*/
+#floatingmes .over::before, #floatingmes .over::after {
+    content: ''; 
+    position: absolute;
+    left: 20px; 
+    top: 60px;
+    border: 15px solid transparent;
+    border-top: 15px solid black;
+    z-index: 999;        
+   }
+
+/* right*/
+#floatingmes .right::before, #floatingmes .right::after { 
+    content: ''; 
+    position: absolute;
+    right: -30px; 
+    top: 3px;
+    border: 15px solid transparent;
+    border-left: 15px solid black;
+    z-index: 999;        
+   }

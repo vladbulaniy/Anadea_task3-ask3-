@@ -1,0 +1,242 @@
+body{
+	background-color: #6B7E8D;
+    font-family:  Georgia, serif;
+    font-size: 14pt;
+}
+
+#head{
+    background-color: #47535D;
+    width: 100%;
+    padding: 20px 0 50px 0;  
+    color: white;     
+}
+
+#inHead{
+    width: 90%;
+    margin: 0 auto;    
+}
+
+.leftPart{
+    float: left;
+}
+
+.rightPart{
+    float: right;
+}
+
+.rightPart span{
+    margin: 0 5px;    
+}
+
+#globalBlock{
+    width: 1000px;
+    margin: 50px;   
+}
+
+#menu{
+    margin-right:30px;    
+    color: white;
+}
+
+#content, #content2{
+    width: 1000px;
+    background-color: #F3F3F3;   
+}
+
+#contentActiveStory{
+    width: 1000px;
+    background-color: #FAFAFA;   
+}
+
+.contentHead{
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #E0E0E0;
+    height: 80px;
+    font-size: 150%;
+    padding: 15px 45px;
+    margin-top: 10px;
+}
+
+.addBlock{
+    height: 10px;
+    border-bottom: 1px solid #D0DFEC;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    display: none;
+}
+
+.buttonHide{
+    cursor: pointer;
+    float: right;
+}
+    
+.top-menu li{
+    list-style:none;
+    display:inline-block;   
+    position:relative;
+    color: white;
+    margin-right: 20px;
+}
+
+.top-menu li .active{
+    color:#BBCDDC;
+}
+
+.top-menu li:hover{
+    color:#BBCDDC;
+}
+.top-menu li a{
+    color:inherit;
+    padding:5px 7px;
+    text-decoration:none;
+    display:block;
+}
+
+.top-menu li:hover ul{
+    display:block;
+    left:0px;
+}
+
+#numero{
+    background-image: url('../img/icons/quntity.png');
+    background-size: 100%;
+    width: 20px;
+    height: 20px;    
+    position: absolute;
+    top:-12px;
+    right: -20px;
+    color: black;
+    padding: 0 6px;
+    font-family: arial;
+    font-size: 80%;
+}
+
+/*---------------------------------------------------------------------*/
+.avatar, .hiddenAvatar{
+    border: 1px solid #D0DFEC;
+    background-color: white;
+    padding: 5px 0 5px 5px;
+    width: 93px;
+    margin: 10px auto;
+}
+
+.avatar img, .hiddenAvatar img{
+    width: 80px;
+    height: 80px;
+}
+
+.info{
+    padding: 20px 0 5px 0;
+}
+
+.date img{
+    margin-top: -8px;
+}
+
+.questionBlock{
+    background-color: #E9F3FB;
+    border: 1px solid #D0DFEC;
+    margin: 10px 50px 10px 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.qustion{
+    margin-left: 10px;
+}
+
+.qustionMaster, .name, .date{
+    color: #6689A6;
+}
+
+.questionTime, .greyColor{
+    color:#999999
+}
+
+.answer{
+    float: right;
+    border-left: 1px solid #D0DFEC;
+    background-color: #F4F8FC;
+    padding: 10px;
+    margin: -10px -10px 0 0;
+    cursor: pointer;
+    color: #6689A6;
+}
+
+
+.toggleVisible, .toggleNotVisible{
+    cursor: pointer;
+}
+
+
+.hidden2{
+    width: 350px;    
+    background-color: #F9FBD9;
+    border: 1px solid #A6A6A6;
+    position: absolute;
+    z-index:10;
+    display: none;
+    cursor: pointer;
+}
+
+.hiddenAvatar{
+    margin-left: 36px;
+    margin-top: 9px;
+}
+
+.hiddenPersonInfo{
+    margin: 19px 0 0 23px;
+}
+
+.personInfo{
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.rejectedDay{
+    background-color: #5EC8D2;
+    padding: 0px 35px;
+    font-family: arial;
+    font-size: 40pt;    
+    color: white;
+    width: 150px;
+    
+}
+
+.otherInfo{    
+    margin-right: 25px; 
+}
+
+.otherInfo div{
+    text-decoration: underline;
+    color: #6689A6;
+    float: right;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+
+.block {  
+    position: relative;
+   }
+   .block::before, .block::after {
+    content: ''; 
+    position: absolute;
+    left: 40px; top: 17px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #F3F3F3;
+   }
+   
+.questionBlock {  
+    position: relative;   
+   }
+   .questionBlock::before, .questionBlock::after {
+    content: ''; 
+    position: absolute;
+    left: 40px; top: -30px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #E9F3FB;        
+   }
